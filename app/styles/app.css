@@ -1,0 +1,11 @@
+body {
+  background-image: url("http://www.tssablog.org/wp-content/uploads/2016/03/QA-feature-exchange-1900x700_c.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: blue;
+}
