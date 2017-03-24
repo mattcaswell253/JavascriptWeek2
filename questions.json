@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "post": "How do i clone a repository?",
+    "notes": "im using a mac"
+  }, {
+    "author": "Mike Teavee",
+    "post": "Is there 50 or 51 states?",
+    "notes": "In the USA"
+  }, {
+    "author": "Violet Beauregarde",
+    "post": "Was the moon landing faked?",
+    "notes": "Im not crazy"
+  }]
+}
