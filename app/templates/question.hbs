@@ -1,5 +1,7 @@
-<h2>More info on{{model.author}}'s Question</h2>
+<h2>More info on {{model.author}}'s Question</h2>
 
 {{update-question question=model update="update"}}
 
 {{question-detail question=model}}
+
+{{new-comment saveAnswer="saveAnswer" question=model}}

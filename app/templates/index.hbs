@@ -3,7 +3,7 @@
 <p>We hope you find this website helpful!</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
 {{question-tile question=question}}
   {{/each}}
 </ul>
