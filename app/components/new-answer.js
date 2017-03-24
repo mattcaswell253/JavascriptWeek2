@@ -1,17 +1,18 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewComment: false,
+  addNewAnswer: false,
   actions: {
     answerFormShow() {
-      this.set('addNewComment', true);
+      this.set('addNewAnswer', true);
     },
     saveAnswer() {
       var params = {
         author: this.get('author'),
-        answer: this.get('answer')
+        answer: this.get('answer'),
+        question: this.get('question')
       };
-      this.set('addNewComment', false);
+      this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);
     }
   }
