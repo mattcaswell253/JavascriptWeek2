@@ -4,6 +4,8 @@
 
 <ul>
   {{#each model as |question|}}
-  <li>{{question.post}} by {{question.author}}</li>
+{{question-tile question=question}}
   {{/each}}
 </ul>
+
+{{new-question saveQuestion="saveQuestion" }}
