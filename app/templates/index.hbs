@@ -1,0 +1,9 @@
+<h1>Welcome to the Best Q&A website on the internet!</h1>
+
+<p>We hope you find this website helpful!</p>
+
+<ul>
+  {{#each model as |question|}}
+  <li>{{question.post}} by {{question.author}}</li>
+  {{/each}}
+</ul>
