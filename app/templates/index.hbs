@@ -1,11 +1,14 @@
 <h1>Welcome to the Best Q&A website on the internet!</h1>
 
 <p>We hope you find this website helpful!</p>
+<div class="question">
 
-<ul>
+
   {{#each model.questions as |question|}}
 {{question-tile question=question}}
   {{/each}}
-</ul>
+
+
+</div>
 
 {{new-question saveQuestion="saveQuestion" }}

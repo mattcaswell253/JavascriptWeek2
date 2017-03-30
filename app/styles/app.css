@@ -1,11 +1,55 @@
 body {
-  background-image: url("http://www.tssablog.org/wp-content/uploads/2016/03/QA-feature-exchange-1900x700_c.jpg");
+  background-image: url("http://eskipaper.com/images/mlb-wallpaper-1.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .jumbotron {
+  background-image: url("https://c1.staticflickr.com/3/2676/3767567403_3821fbb463_b.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: inherit;
   text-align: center;
-  background-color: blue;
+  background-repeat: no-repeat;
+  color: red;
+
+}
+
+h1, p {
+  color: red;
+}
+
+.btn {
+  color: red;
+}
+
+.ans {
+  color: black;
+}
+
+.question {
+ background-color: rgba(0, 0, 0, .9);
+ text-align: center;
+ border: 2px solid red;
+ border-radius: 10px;
+ color: red;
+ font-size: 20px;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, .9);
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
 }
